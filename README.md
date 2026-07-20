@@ -1,22 +1,37 @@
-# Decision Tree vs Logistic Regression — Model Comparison
+<h1 align="center">🌳 Decision Tree vs Logistic Regression</h1>
 
-Comparing two classic classification algorithms — **Logistic Regression** and a **Decision Tree Classifier** — on the Titanic survival dataset, to understand not just which performs better but *why*.
+<p align="center"><b>Two classic classifiers on the Titanic dataset, compared head-to-head — not just which wins, but <i>why</i>.</b></p>
 
-## What this covers
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/>
+  <img src="https://img.shields.io/badge/Focus-Model%20Comparison-blue?style=flat-square" alt="Model Comparison"/>
+  <img src="https://img.shields.io/badge/Metric-Confusion%20Matrix-orange?style=flat-square" alt="Confusion Matrix"/>
+</p>
 
-- Data cleaning and exploratory analysis on the Titanic dataset (age, sex, class, fare, embarkation, etc.)
-- Training both a Logistic Regression model and a Decision Tree Classifier on the same features
-- Evaluating both with **confusion matrices** and standard classification metrics (accuracy, precision, recall)
-- Comparing the two approaches: Logistic Regression's statistical, interpretable coefficients vs. the Decision Tree's rule-based, visual decision boundaries
+---
 
-## Why this comparison matters
+## 🎯 The idea
 
-Picking a model isn't just about accuracy — it's about which trade-offs fit the problem. This project walks through both approaches side by side on the same data so the differences in interpretability, decision boundaries, and error patterns are directly visible in the confusion matrices rather than just a single accuracy number.
+Picking a model isn't just about accuracy — it's about which trade-offs fit the problem. This project runs **Logistic Regression** and a **Decision Tree Classifier** side by side on the same Titanic survival data, so the differences in interpretability, decision boundaries, and error patterns show up directly in the **confusion matrices** rather than a single accuracy number.
 
-## Stack
+## 🔍 What it does
 
-Python · pandas · scikit-learn (LogisticRegression, DecisionTreeClassifier, confusion_matrix) · matplotlib/seaborn
+| Step | Detail |
+|---|---|
+| 🧹 Clean & explore | Titanic dataset — age, sex, class, fare, embarkation |
+| 🤖 Train | Fit both Logistic Regression and a Decision Tree on the same features |
+| 📊 Evaluate | Confusion matrices + accuracy / precision / recall for each |
+| ⚖️ Compare | Statistical, interpretable coefficients vs. rule-based decision boundaries |
 
-## File
+## 🛠️ Stack
 
-`Decision tree (1).ipynb` — full walkthrough from data load to model comparison.
+`Python` · `pandas` · `scikit-learn` (`LogisticRegression`, `DecisionTreeClassifier`, `confusion_matrix`) · `matplotlib / seaborn`
+
+## 📁 File
+
+[`Decision tree (1).ipynb`](Decision%20tree%20(1).ipynb) — full walkthrough from data load to model comparison.
+
+---
+<p align="center"><i>Part of my <a href="https://github.com/buseko-Actuary">applied ML & data science portfolio</a> · Buseko · Insight Analytics</i></p>
